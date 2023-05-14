@@ -11,7 +11,7 @@ const ProfileController = require("./controllers/api");
 //connecting ans starting server
 
 app.use("", ProfileController);
-app.listen(5000, async () => {
+app.listen(4000, async () => {
   try {
     await connect();
     console.log("listening on port 5000.....");
